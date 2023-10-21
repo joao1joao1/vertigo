@@ -10,6 +10,12 @@
 /* 1 rem = 16px */
 /* justify-content: meche no horizontal */
 /* align-items: meche na vertical */
+
+:root {
+    --gray-800: #1E293B;
+    --gray-600: #474569;
+}
+
 header {
     background-image: url(./imagens/bg\ mobile.png);
     background-size: cover;
@@ -17,4 +23,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3.7rem;
+}
+
+main {
+    padding-inline: 1.5rem;
+}
+
+.descriçao h1 {
+    color: var(--gray-800);
+    margin-bottom: 1rem;
+    font-size: 1.5625rem;
 }
