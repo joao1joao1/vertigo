@@ -7,9 +7,14 @@
     font-family: 'Outfit', sans-serif;
     font-family: 'Titillium Web', sans-serif;
 }
-
+/* 1 rem = 16px */
+/* justify-content: meche no horizontal */
+/* align-items: meche na vertical */
 header {
     background-image: url(./imagens/bg\ mobile.png);
     background-size: cover;
-    height: 1px;
+    height: 8.675rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
