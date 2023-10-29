@@ -117,9 +117,19 @@ main {
     font-weight: 700;
     font-size: 1rem;
 }
+
+.bg-desktop {
+    display: none;
+}
+
+
 /* @media serve p/ fazer responsividade */
 /* (min-width: ...px) significa que tal responsividade serve p/ aparelhos de tal largura*/
 @media(min-width: 1000px) {
+    body {
+        display: flex;
+    }
+    
     header {
         background: none;
         justify-content: flex-start;
@@ -132,5 +142,14 @@ main {
 
     main {
         padding-inline: 7rem;
+    }
+
+    .conteudo {
+        width: 100%;
+    }
+
+    .bg-desktop {
+        display: block;
+        width: 100%;
     }
 }
